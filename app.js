@@ -5,9 +5,9 @@ function leDados () {
         objDados = JSON.parse (strDados);
     }
     else {
-        objDados = { contatos: [ {nome:"Joao Carlos", descricao:"joao@joao.br", avaliacao:"5" },
-                                 {nome:"Pedrin ui", descricao:"pedrin@gmail.uol", avaliacao:"4" },
-                                 {nome:"Dani Ablueblue", descricao:"dani@coelhodoido.tv", avaliacao:"5"} ]
+        objDados = { contatos: [ {nome:"Jorge Cleyton", descricao:"Serviço de qualidade", avaliacao:"5" },
+                                 {nome:"Leonardo soft", descricao:"Muito bom", avaliacao:"4" },
+                                 {nome:"Marcio jesus", descricao:"Serviço bom, mas o prestador é mal educado", avaliacao:"3"} ]
                    }
     }
      return objDados;
